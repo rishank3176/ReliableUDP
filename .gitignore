@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+.venv/
+venv/
+env/
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# Runtime files
+uploads/*
+received_files/*
